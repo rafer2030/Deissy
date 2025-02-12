@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;6006amp;display=swap);
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+
+:root{
+    --black: #333333;
+    --black-2: #161616;
+    --gray: #707070;
+    --white: #ffffff;
+}
+.container {
+    position: relative;
+    max-width: 24em;
+    width: 100%;
+    border-radius: 25px;
+    padding: 1.4em;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0, 2);
+    z-index: 3;
+    overflow: hidden;
+    font-family: "Poppons", sans-serif;
+}
+
+.logo-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+& img {
+    height: 3.5em;
+    object-fit: cover;
+}
+
+& i {
+    font-family: 1.8em;
+    
+}
